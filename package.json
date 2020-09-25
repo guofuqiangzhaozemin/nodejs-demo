@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/guofuqiangzhaozemin/nodejs-demo/issues"
   },
-  "homepage": "https://github.com/guofuqiangzhaozemin/nodejs-demo#readme"
+  "homepage": "https://github.com/guofuqiangzhaozemin/nodejs-demo#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
