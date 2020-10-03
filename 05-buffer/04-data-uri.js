@@ -1,19 +1,28 @@
 #!/usr/bin/node
 
 const log=console.log,
-fs=require('fs'),
-http=require('http'),
-pic=process.argv[2];
-
-let data=fs.readFileSync(pic);
-
-let uri=data.toString('base64');
-
+      fs=require('fs'),
+      http=require('http'),
+      path=require('path'),
+      pic=process.argv[2];
+if(process.argv.length!==3){
+  console.error('命令行参数格式：cmd fileName');
+  process.exit(1);
+}
+try{
+  var data=fs.readFileSync(pic).toString('base64');
+}catch(e){
+  console.error(e.message);
+  process.exit(2);
+}
 
 //log(`uri:${uri}\n`);
+var ext=path.extname(pic);
+var uriData='data:image/'+ext.slice(1,ext.length)+';base64,'+data;
 
-let html=`<html><head><title>data uri</title></head><body><img src= "data:image/jpg;base64,${uri}"></body></html>`;
+
+var html='<!DOCTYPE html><html><body><img alt="'+path.basename(pic,ext)+'" src="'+uriData+'"</body></html>'
 
 http.createServer((req,res)=>{
-   res.end(html);
+  res.end(html);
 }).listen(8080);

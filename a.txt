@@ -1,0 +1,50 @@
+总用量 20
+drwxrwxr-x.  2 wangding wangding   95 9月  18 14:55 01-introduction
+drwxrwxr-x.  2 wangding wangding   33 9月  18 16:33 02-global-var
+drwxrwxr-x.  2 wangding wangding   44 9月  18 17:39 03-console
+drwxrwxr-x.  2 wangding wangding   92 9月  24 11:15 04-process
+drwxrwxr-x.  2 wangding wangding  145 10月  3 15:03 05-buffer
+drwxrwxr-x.  3 wangding wangding 4096 10月  3 18:02 07-module
+drwxrwxr-x.  2 wangding wangding  111 10月  2 16:08 08-event
+-rw-rw-r--.  1 wangding wangding    0 10月  8 08:34 a.txt
+-rw-rw-r--.  1 wangding wangding 1066 9月  17 19:52 LICENSE
+drwxrwxr-x. 10 wangding wangding  143 10月  3 18:00 node_modules
+-rw-rw-r--.  1 wangding wangding  712 9月  25 15:15 package.json
+-rw-rw-r--.  1 wangding wangding  955 9月  17 19:52 README.en.md
+-rw-rw-r--.  1 wangding wangding 1323 9月  17 19:52 README.md
+./01-introduction/01-hello-world.js
+./01-introduction/02-hello-world-server.js
+./01-introduction/03-hello-world-server.js
+./02-global-var/01-dir-file-name.js
+./03-console/01-format.js
+./03-console/02-time.js
+./04-process/01-information.js
+./04-process/02-calc.js
+./04-process/03-std-io.js
+./04-process/04-exit-code.js
+./05-buffer/01-basic.js
+./05-buffer/02-encode.js
+./05-buffer/03-decode.js
+./05-buffer/04-data-uri.js
+./07-module/01-third-module.js
+./07-module/04-export-object.js
+./07-module/main.js
+./07-module/02-export-var.js
+./07-module/02-main.js
+./07-module/03-export-function.js
+./07-module/03-main.js
+./07-module/04-main.js
+./07-module/05-export-object.js
+./07-module/05-main.js
+./07-module/06-export-object.js
+./07-module/06-main.js
+./07-module/08-circle/lib/diameter.js
+./07-module/08-circle/lib/area.js
+./07-module/08-circle/lib/circumference.js
+./07-module/08-circle/index.js
+./07-module/08-main.js
+./08-event/01-event-emitter.js
+./08-event/02-dog.js
+./08-event/02-play-dog.js
+./08-event/05-dog.js
+./08-event/05-play-dog.js

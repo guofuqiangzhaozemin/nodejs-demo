@@ -12,6 +12,11 @@ log(`user id:${process.getuid()}`);
 log(`group id:${process.getgid()}`);
 log(`cwd:${process.cwd()}\n`);
 
+log(`rss:${process.memoryUsage().rss}`);
+log(`heapTotal:${process.memoryUsage().heapTotal}`);
+log(`heapUsed:${process.memoryUsage().heapUsed}`);
+log(`external:${process.memoryUsage().external}\n`);
+
 log(`env:`);
 log(process.env);
 log(`Host name:${process.env.HOSTNAME}`);

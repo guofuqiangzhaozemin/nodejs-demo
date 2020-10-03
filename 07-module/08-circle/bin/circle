@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const circle=require('../index.js');
+console.log('area:',circle.area(20));
+console.log('circumference:',circle.circumference(20));
+console.log('diameter:',circle.diameter(20));

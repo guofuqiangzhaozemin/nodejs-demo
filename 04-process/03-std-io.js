@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-const log=console.log;
-stdin=process.stdin,
-  stdout=process.stdout,
-msg = ['name','email','qq','mobile'];
+const log=console.log,
+      stdin=process.stdin,
+      stdout=process.stdout,
+      msg = ['name','email','qq','mobile'];
 let me={},i=1;
 stdout.write(`${msg[0]}:`);
 stdin.on(`data`,(data=>{
