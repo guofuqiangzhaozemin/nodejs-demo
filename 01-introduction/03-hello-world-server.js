@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const http=require('http')
+const http=require('http');
 
 const server=http.createServer();
 

@@ -13,7 +13,7 @@ function Dog(name,energy){
     else{
       clearInterval(timer);
     }
-  },1000)
+  },1000);
 
   this.name=()=>_name;
   this.energy=()=>_energy;

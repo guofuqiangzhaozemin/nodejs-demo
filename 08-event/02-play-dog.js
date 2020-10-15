@@ -11,5 +11,5 @@ taidi.on('bark',onBark);
 zangao.on('bark',onBark);
 
 function onBark(){
-  log(`${this.name()} barked! energy:${this.energy()}`)
+  log(`${this.name()} barked! energy:${this.energy()}`);
 }

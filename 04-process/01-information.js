@@ -17,6 +17,6 @@ log(`heapTotal:${process.memoryUsage().heapTotal}`);
 log(`heapUsed:${process.memoryUsage().heapUsed}`);
 log(`external:${process.memoryUsage().external}\n`);
 
-log(`env:`);
+log('env:');
 log(process.env);
 log(`Host name:${process.env.HOSTNAME}`);

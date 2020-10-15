@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
-const log=console.log,
-      fs=require('fs'),
+const fs=require('fs'),
       http=require('http'),
       path=require('path'),
       pic=process.argv[2];
@@ -21,7 +20,7 @@ var ext=path.extname(pic);
 var uriData='data:image/'+ext.slice(1,ext.length)+';base64,'+data;
 
 
-var html='<!DOCTYPE html><html><body><img alt="'+path.basename(pic,ext)+'" src="'+uriData+'"</body></html>'
+var html='<!DOCTYPE html><html><body><img alt="'+path.basename(pic,ext)+'" src="'+uriData+'"</body></html>';
 
 http.createServer((req,res)=>{
   res.end(html);

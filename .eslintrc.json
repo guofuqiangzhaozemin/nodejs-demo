@@ -1,13 +1,18 @@
 {
     "env": {
         "es6": true,
-        "node": true
+        "node": true,
+        "jquery":true
     },
     "extends": "eslint:recommended",
     "rules": {
         "indent": [
             "error",
-            4
+            2,
+            {
+             "SwitchCase":1,
+             "VariableDeclarator":{"var":2,"let":2,"const":3}
+            }
         ],
         "linebreak-style": [
             "error",
@@ -21,7 +26,10 @@
             "error",
             "always"
         ],
-        "no-console":"off"
+        "no-console":[
+          "off"
+          ]
+
     }
 }
                                                                                           

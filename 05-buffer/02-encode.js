@@ -10,5 +10,5 @@ if(process.argv.length!==4){
 log(`usr:${usr}`);
 log(`pwd:${pwd}\n`);
 let buf = new Buffer(`${usr}:${pwd}`);
-log(`base64:${buf.toString(`base64`)}`);
+log(`base64:${buf.toString('base64')}`);
 
