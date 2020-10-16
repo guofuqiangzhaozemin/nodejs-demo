@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require("fs"),
+const fs = require('fs'),
       src=process.argv[2];
 //创建空文件
 try{

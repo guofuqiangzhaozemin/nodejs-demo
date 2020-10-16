@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require("fs"),
+const fs = require('fs'),
       src=process.argv[2];
 try{
   fs.unlinkSync(src);

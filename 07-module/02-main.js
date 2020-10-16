@@ -1,9 +1,7 @@
 #!/usr/bin/node
 
-const log  =console.log,
-      pi=require('./02-export-var.js'),
-      chalk=require('chalk'),
-      info =chalk.greenBright;
+const pi=require('./02-export-var.js'),
+      chalk=require('chalk');
 
-log(info('PI:'`&{pi}`));
-log(module);
+console.log(chalk.green(`pi:${pi}`));
+console.log(module);

@@ -13,5 +13,6 @@ http.createServer((req,res)=>{
   log();
   let fileName =__dirname+req.url,
       fileData=fs.createReadStream(fileName).pipe(res);
+  log(fileData);
 
 }).listen(8080);

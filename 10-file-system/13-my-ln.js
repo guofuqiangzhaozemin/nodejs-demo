@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require("fs");
+const fs = require('fs');
 
 switch(process.argv.length){
   case 4:{    //hard link node 13-In.js src link
@@ -19,7 +19,7 @@ switch(process.argv.length){
     let opt = process.argv[2],
         src = process.argv[3],
         ink = process.argv[4];
-    if(opt='-s'){
+    if(opt==='-s'){
       try{
         fs.symlinkSync(src,ink);
       }catch(e){

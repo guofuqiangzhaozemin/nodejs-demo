@@ -12,7 +12,7 @@ function Dog(name,energy){
     else{
       clearInterval(timer);
     }
-  },1000)
+  },1000);
 
   this.name=()=>_name;
   this.energy=()=>_energy;
@@ -23,7 +23,7 @@ function Dog(name,energy){
     }
     //validate _listeners[evt] exist
     _listeners[evt].push(fn);
-  }
+  };
   function emit(evt,arg){
     if(typeof(_listeners[evt])==='undefined'){
       return;

@@ -8,7 +8,7 @@ function GreenStream(){
     process.stdout.write('\033[1;32m'+chunk+'\033[1;37m');
   
     callback();
-  }
+  };
 }
 GreenStream.prototype=Writable.prototype;
 let rs=new GreenStream();

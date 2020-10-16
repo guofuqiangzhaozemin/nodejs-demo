@@ -11,7 +11,7 @@ stdin.on('data',(data)=>{
 
 stdin.on('end',()=>{
   process.exit();
-})
+});
 
 stdin.push('hello world\n');
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require("fs"),
+const fs = require('fs'),
       fileName=process.argv[2],
       log=console.log;
 let num=1;
