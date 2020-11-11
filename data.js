@@ -16,20 +16,20 @@ var movieList = [
   { movieId: '1212263', movieName: '风平浪静', movieRange: '暂无评分'  },
   { movieId: '1336825', movieName: '七号房的礼物', movieRange: '9.3'  },
   { movieId: '1217400', movieName: '飞奔去月球', movieRange: '8.2'  },
-                                    { movieId: '1300031', movieName: '马永贞之闸北决', movieRange: '暂无评分'  },
-                                      { movieId: '1240838', movieName: '除暴', movieRange: '暂无评分'  },
-                                        { movieId: '342574', movieName: '地狱男爵：血皇后崛起', movieRange: '暂无评分'  },
-                                          { movieId: '1284957', movieName: '九条命', movieRange: '暂无评分'  },
-                                            { movieId: '1368394', movieName: '保家卫国——抗美援朝光影纪实', movieRange: '暂无评分'  },
-                                              { movieId: '1262874', movieName: '82号古宅', movieRange: '暂无评分'  },
-                                                { movieId: '1358968', movieName: '汪汪队立大功之超能救援', movieRange: '暂无评分'  },
-                                                  { movieId: '1215685', movieName: '呼吸', movieRange: '6.5'  },
-                                                    { movieId: '1203282', movieName: '热血合唱团', movieRange: '暂无评分'  },
-                                                      { movieId: '1368406', movieName: '最可爱的人', movieRange: '暂无评分'  },
-                                                        { movieId: '1330566', movieName: '秀美人生', movieRange: '暂无评分'  },
-                                                          { movieId: '1298876', movieName: '龙神之子', movieRange: '暂无评分'  },
-                                                            { movieId: '1216140', movieName: '热气球飞行家', movieRange: '暂无评分'  }
+  { movieId: '1300031', movieName: '马永贞之闸北决', movieRange: '暂无评分'  },
+  { movieId: '1240838', movieName: '除暴', movieRange: '暂无评分'  },
+  { movieId: '342574', movieName: '地狱男爵：血皇后崛起', movieRange: '暂无评分'  },
+  { movieId: '1284957', movieName: '九条命', movieRange: '暂无评分'  },
+  { movieId: '1368394', movieName: '保家卫国——抗美援朝光影纪实', movieRange: '暂无评分'  },
+  { movieId: '1262874', movieName: '82号古宅', movieRange: '暂无评分'  },
+  { movieId: '1358968', movieName: '汪汪队立大功之超能救援', movieRange: '暂无评分'  },
+  { movieId: '1215685', movieName: '呼吸', movieRange: '6.5'  },
+  { movieId: '1203282', movieName: '热血合唱团', movieRange: '暂无评分'  },
+  { movieId: '1368406', movieName: '最可爱的人', movieRange: '暂无评分'  },
+  { movieId: '1330566', movieName: '秀美人生', movieRange: '暂无评分'  },
+  { movieId: '1298876', movieName: '龙神之子', movieRange: '暂无评分'  },
+  { movieId: '1216140', movieName: '热气球飞行家', movieRange: '暂无评分'  }
 
-]
+];
 
-module.exports = movieList
+module.exports = movieList;
