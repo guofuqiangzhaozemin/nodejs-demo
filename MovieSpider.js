@@ -17,7 +17,7 @@ opt.headers = {
   'Upgrade-Insecure-Requests': '1',
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36'
 };
-let movies=[];
+let moviesList=[];
 https.get(opt,(res)=>{
   let data='';
   res.on('data',(chunck)=>data+=chunck);
@@ -33,9 +33,9 @@ https.get(opt,(res)=>{
       movieItem.movieId=movieId;
       movieItem.movieName=movieName;
       movieItem.movieRange=movieRange;
-      movies.push(movieItem);
+      moviesList.push(movieItem);
     });
-    log(movies);
+    log(moviesList);
   });    
 });
 
@@ -50,7 +50,7 @@ http.createServer((req,res)=>{
     res.end(genPage());
   }
   if(req.url==='/getlist'){
-    res.end(JSON.stringify(movies));
+    res.end(JSON.stringify(moviesList));
   }
 
 }).listen(8080);
