@@ -21,7 +21,9 @@
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.3",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
     "mysql2": "^2.2.5"
   }
 }
